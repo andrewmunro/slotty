@@ -3,16 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tweenjs/tween.js": "^17.1.0",
     "@types/jest": "^20.0.8",
     "@types/node": "^8.0.25",
     "@types/pixi.js": "4.5.0",
     "@types/react": "15.0.21",
     "@types/react-dom": "0.14.23",
+    "@types/tween.js": "^16.6.1",
     "pixi.js": "4.5.0",
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-pixi": "^0.9.15",
     "react-scripts-ts": "^2.6.0",
+    "tslint-react": "2.6.0",
     "typescript": "2.2"
   },
   "scripts": {

@@ -14,9 +14,30 @@ class Slot extends React.Component<ContainerPropsType, State> {
 
         return (
             <DisplayObjectContainer mask={mask} {...this.props} >
-                <Reel x={0} numberImages={10} imageWidth={100} imageHeight={100} key="reel1"/>
-                <Reel x={100} numberImages={10} imageWidth={100} imageHeight={100} key="reel2"/>
-                <Reel x={200} numberImages={10} imageWidth={100} imageHeight={100} key="reel3"/>
+                <Reel
+                    key="reel1"
+                    x={0}
+                    numberImages={4}
+                    imageWidth={100}
+                    imageHeight={100}
+                    scrollSpeed={1000}
+                />
+                <Reel
+                    key="reel2"
+                    x={100}
+                    numberImages={4}
+                    imageWidth={100}
+                    imageHeight={100}
+                    scrollSpeed={1200}
+                />
+                <Reel
+                    key="reel3"
+                    x={200}
+                    numberImages={4}
+                    imageWidth={100}
+                    imageHeight={100}
+                    scrollSpeed={800}
+                />
             </DisplayObjectContainer>
         );
     }
